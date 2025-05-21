@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/  # якщо використовуєш collectstatic в локальній папці
+
+# If you're using Django's default file-based cache or sessions
+*.cache
+*.session
+
+# Virtual environment
+venv/
+.env
+.env.*
+*.env
+*.venv
+Pipfile.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python virtualenv manager files
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# Test outputs
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Other temporary files
+*.bak
+*.swp
+*.tmp
+
+# Optional: ignore all migrations (if you recreate them)
+# !*/migrations/__init__.py
+# **/migrations/
